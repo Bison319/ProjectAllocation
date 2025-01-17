@@ -19,13 +19,8 @@ public class EmployeeProjAllocationService {
     @Autowired
     private EmployeeRepository employeeRepository;
 
- /*   public List<Employee> getEmployeeBySkills(String primarySkill, String secondarySkill){
-        return employeeRepository.findByPrimarySkillsAndSecondarySkill(primarySkill,secondarySkill);
-    }
-
-    public List<Employee> getUnallocatedEmployeeBySkill(String primarySkill){
-        return employeeRepository.findByPrimarySkillsAndAllocatedFalse(primarySkill);
-    }*/
+ 
+    
 
     @Autowired
     private JavaMailSender mailSender;
